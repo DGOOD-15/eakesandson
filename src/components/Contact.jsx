@@ -2,13 +2,13 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="py-20 px-4 md:px-16 bg-gradient-to-b from-gray-50 to-gray-100"
+      className="py-20 px-4 md:px-16 bg-gradient-to-b from-gray-50 to-gray-100 text-center"
     >
-      <h2 className="text-4xl font-bold mb-8 text-center text-gray-800 tracking-tight">
+      <h2 className="text-4xl font-bold mb-8 text-gray-800 tracking-tight">
         Contact Us
       </h2>
       <div className="max-w-6xl mx-auto">
-        <div className="bg-white rounded-xl shadow-lg p-8 md:p-12 text-center max-w-2xl mx-auto">
+        <div className="bg-white rounded-xl shadow-lg p-2 md:p-12 text-center max-w-full md:max-w-2xl mx-auto">
           <p className="text-lg text-gray-700 mb-6">
             Ready to tackle your project? Contact us today for a free estimate!
           </p>
