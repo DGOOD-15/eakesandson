@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Contact() {
   return (
     <section
@@ -8,12 +10,12 @@ export default function Contact() {
         Contact Us
       </h2>
       <div className="max-w-6xl mx-auto">
-        <div className="bg-white rounded-xl shadow-lg p-2 md:p-12 text-center max-w-full md:max-w-2xl mx-auto">
+        <div className="bg-white rounded-xl shadow-lg p-1 sm:p-2 md:p-12 text-center max-w-full md:max-w-2xl mx-auto">
           <p className="text-lg text-gray-700 mb-6">
             Ready to tackle your project? Contact us today for a free estimate!
           </p>
           <div className="space-y-4">
-            <p className="text-xl font-semibold text-gray-800">
+            <p className="text-base sm:text-lg md:text-xl font-semibold text-gray-800 break-words">
               <a
                 href="tel:+12703508093"
                 className="text-amber-600 hover:text-amber-700 transition-colors duration-300"
@@ -21,7 +23,7 @@ export default function Contact() {
                 (270) 350-8093
               </a>
             </p>
-            <p className="text-xl font-semibold text-gray-800">
+            <p className="text-base sm:text-lg md:text-xl font-semibold text-gray-800 break-words">
               <a
                 href="mailto:Eakesandsondirtworx@gmail.com"
                 className="text-amber-600 hover:text-amber-700 transition-colors duration-300"
@@ -29,7 +31,7 @@ export default function Contact() {
                 Eakesandsondirtworx@gmail.com
               </a>
             </p>
-            <p className="text-xl font-semibold text-gray-800">
+            <p className="text-base sm:text-lg md:text-xl font-semibold text-gray-800 break-words">
               Cadiz, KY 42211
             </p>
           </div>
