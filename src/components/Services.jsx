@@ -11,12 +11,12 @@ export default function Services() {
   };
 
   const services = [
-    { title: "Land Clearing", image: "/src/assets/land-clearing.jpg" },
-    { title: "Road Cutting", image: "/src/assets/road-cutting.jpg" },
-    { title: "Forestry Mulching", image: "/src/assets/forest-mulching.jpg" },
-    { title: "Dirt Work", image: "/src/assets/dirt-work.jpg" },
-    { title: "Driveways", image: "/src/assets/driveways.jpg" },
-    { title: "Bush Hogging", image: "/src/assets/bush-hogging.jpg" },
+    { title: "Land Clearing", image: "/assets/land-clearing.jpg" },
+    { title: "Road Cutting", image: "/assets/road-cutting.jpg" },
+    { title: "Forestry Mulching", image: "/assets/forest-mulching.jpg" },
+    { title: "Dirt Work", image: "/assets/dirt-work.jpg" },
+    { title: "Driveways", image: "/assets/driveways.jpg" },
+    { title: "Bush Hogging", image: "/assets/bush-hogging.jpg" },
   ];
 
   return (

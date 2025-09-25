@@ -5,12 +5,12 @@ export default function About() {
       <div className="md:flex md:items-center md:gap-8 max-w-5xl mx-auto">
         <div className="relative md:w-1/2 mb-6 md:mb-0">
           <img
-            src="/src/assets/about.jpg"
+            src="/assets/about.jpg"
             alt="About Eakes & Son"
             className="w-full rounded-lg shadow"
           />
           <img
-            src="/src/assets/licensed.png"
+            src="/assets/licensed.png"
             alt="100% Licensed and Insured Stamp"
             className="absolute top-0 left-0 w-1/3 transform -rotate-12 -translate-x-4 -translate-y-4"
           />

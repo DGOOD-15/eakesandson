@@ -1,4 +1,4 @@
-import logo from "../assets/logo-noBG.jpg";
+import logo from "/assets/logo-noBG.jpg";
 
 export default function Header() {
   return (
